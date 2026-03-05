@@ -20,6 +20,6 @@ jobs:
         run: |
           pip install pytest pytest-cov ruff
       - name: Lint
-        run: ruff check code.py test_code.py
+        run: ruff check mycode.py test_code.py
       - name: Test
         run: pytest test_code.py -v --cov=code
