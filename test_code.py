@@ -1,5 +1,5 @@
 import pytest
-from code import f
+from mycode import f
 
 
 def test_normal_addition():
