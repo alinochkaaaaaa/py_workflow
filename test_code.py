@@ -10,8 +10,8 @@ def test_normal_addition():
 
 def test_large_numbers():
     """сложение с большими числами"""
-    assert f(1000000, 2000000) == 3000000
-    assert f(-1000000000000, 10000) == 0
+    assert f(1_000_000, 2_000_000) == 3_000_000
+    assert f(-1_000_000_000_000, 10_000) == -999_999_990_000
 
 
 def test_type_error():
